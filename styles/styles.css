@@ -237,7 +237,7 @@ letter-spacing: 0.02em;
   line-height: 1.7;
 }
 
-.phone:hover
+.phone:hover,
 .phone:focus {
   color: var(--bg-buttons-color-hover);
 }
@@ -258,7 +258,7 @@ letter-spacing: 0.02em;
   line-height: 1.7;
 }
 
-.email-footer:focus 
+.email-footer:focus, 
 .email-footer:hover{
   color:var(--bg-buttons-color-hover)
 }
