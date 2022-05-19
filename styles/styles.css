@@ -228,7 +228,7 @@ letter-spacing: 0.02em;
 .phone {
   display: block;
   text-decoration: none;
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   letter-spacing: 00.03em;
   font-size: 14px;
   font-weight: 400;
@@ -245,7 +245,7 @@ letter-spacing: 0.02em;
   display: block;
   margin-bottom: 9px;
   text-decoration: none;
-  color: var(--secondary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   letter-spacing: 00.03em;
   font-size: 14px;
   font-weight: 400;
@@ -275,7 +275,8 @@ letter-spacing: 0.02em;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  padding: 25px 102px;
+  width: 270px;
+  height: 120px;
 }
 .advantages-icon-container:hover .advantage-icon 
 .advantages-icon-container:focus .advantage-icon {
@@ -340,12 +341,11 @@ margin-right: 0px;
 /* Команда ВебСтудії */
 .team.section {
   background-color: var(--bg-button-color);
+  padding-bottom: 94px;
 }
 .team-container {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 32px;
-  padding-left: 32px;
 }
 .team-links {
   display: flex;
@@ -413,6 +413,10 @@ margin-right: 0px;
 .clients-heading {
   text-align: center;
   margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .clients.list {
   display: flex;
@@ -432,8 +436,8 @@ margin-right: 0;
   fill: var(--icon-color);
   cursor: pointer;
 }
-.client:focus .client-icon,
-.client:hover .client-icon {
+.client a:focus .client-icon,
+.client a:hover .client-icon {
   fill: var(--bg-buttons-color-hover);
 }
 
