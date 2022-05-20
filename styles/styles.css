@@ -264,8 +264,8 @@ letter-spacing: 0.02em;
 
 /* Advantages налаштування */
 
-.advantage-icon:focus,
-.advantage-icon:hover {
+.advantages-icon-container:focus .advantage-icon,
+.advantages-icon-container:hover .advantage-icon {
   fill: var(--bg-buttons-color-hover);
 }
 
